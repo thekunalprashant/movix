@@ -10,7 +10,7 @@ import Genres from "../genres/Genres";
 import ContentWrapper from "../contentWrapper/ContentWrapper";
 import Img from "../lazyLoadImage/Img";
 import PosterFallback from "../../assets/no-poster.png";
-import CircleRating from "../circleRating/circleRating";
+import CircleRating from "../circleRating/CircleRating";
 import "./style.scss";
 
 const Carousel = ({data, loading, endpoint, title}) => {
